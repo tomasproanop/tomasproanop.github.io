@@ -38,9 +38,7 @@
     overflow: hidden;
     transform: translateY(-50%);  
 }
-.me_desc {
-    font-size: 2rem;
-}
+
 .me-text {
     text-align: center;
     position: absolute;
