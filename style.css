@@ -73,7 +73,7 @@
 .card-title {
     text-align: center;
 }
-.card:hover .skillsIcon:hover {
+.card:hover, .skillsIcon:hover {
     color: #0e6d85;;
 }
 .card-knowledgeText:hover {
@@ -93,7 +93,7 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-linkedin:hover, .fa-github:hover {
+.fa-linkedin:hover, .fa-github:hover, .fa-bandcamp:hover, .fa-vimeo:hover  {
     color: #0e6d85;
 }
 .fab {
