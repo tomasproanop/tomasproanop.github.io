@@ -1,3 +1,22 @@
+/*dark mode*/
+
+body {
+  color: #222;
+  background: #fff;
+}
+a {
+  color: #0033cc;
+}
+
+/* Dark Mode styles */
+body.dark-theme {
+  color: #eee;
+  background: #121212;
+}
+body.dark-theme a {
+  color: #809fff;
+}
+
 /* me_title animation */
 .anim-typewriter{
     animation: typewriter 3s steps(44) 1s 1 normal both,
