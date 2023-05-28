@@ -16,6 +16,7 @@
 .navbarScroll.navbarDark {
     background-color: #000000;
 }
+
 /* me background image */
 .bgimage {
     height: 100vh;
@@ -23,6 +24,7 @@
     background-size: cover;
     position: relative;
 }
+
 /* text css above me image*/
 .me_title {
     font-size: 4em;
@@ -47,11 +49,13 @@
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
 }
+
 /* about section image css */
 .imageAboutPage {
     width: 50%;
     border-radius: 7px;
 }
+
 /* knowledge, portfolio and contact section css */
 .knowledgeText.card {
     height: 280px;
@@ -71,12 +75,14 @@
 .knowledgeText:hover {
     border: 1px solid #0e6d85;
 }
+.card-skillsText:hover {
+    border: 1px solid #0e6d85;
+}
 .card-img-top:hover {
         opacity: .5;
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
     }
-
 
 /* social media icons styling */
 .social-icons {
@@ -128,6 +134,7 @@ body {
   /*   z-index: 1; */
     animation: bounce 1.5s infinite;
   }
+
   ::-webkit-input-placeholder {
     font-size: 1.3em;
   }
