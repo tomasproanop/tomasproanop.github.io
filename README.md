@@ -1,1 +1,1 @@
-This is my personal portfolio launched via Github Pages. 
+This is my personal portfolio launched via GitHub Pages. 
