@@ -57,7 +57,7 @@
 }
 
 /* skills, portfolio and contact section css */
-.knowledgeText.card {
+.skillsText.card {
     height: 280px;
     cursor: pointer;
   }
@@ -65,7 +65,7 @@
     height: 280px;
     cursor: pointer;
   }
-.knowledgeIcon {
+.skillsIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
@@ -73,7 +73,7 @@
 .card-title {
     text-align: center;
 }
-.card:hover .knowledgeIcon {
+.card:hover .skillsIcon {
     color: #0e6d85;;
 }
 .card-knowledgeText:hover {
