@@ -56,8 +56,12 @@
     border-radius: 7px;
 }
 
-/* knowledge, portfolio and contact section css */
+/* skills, portfolio and contact section css */
 .knowledgeText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.skillsText.card {
     height: 280px;
     cursor: pointer;
   }
@@ -72,7 +76,7 @@
 .card:hover .knowledgeIcon {
     color: #0e6d85;;
 }
-.knowledgeText:hover {
+.card-knowledgeText:hover {
     border: 1px solid #0e6d85;
 }
 .card-skillsText:hover {
