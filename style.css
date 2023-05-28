@@ -73,7 +73,7 @@
 .card-title {
     text-align: center;
 }
-.card:hover .skillsIcon {
+.card:hover .skillsIcon:hover {
     color: #0e6d85;;
 }
 .card-knowledgeText:hover {
