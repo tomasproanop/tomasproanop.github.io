@@ -19,4 +19,13 @@ btn.addEventListener('click', function() {
   // Then toggle (add/remove) the .dark-theme class to the body
   document.body.classList.toggle('dark-theme');  
 })
-
+ß
+//responsive navigation bar 
+function myFunction() {
+    var x = document.getElementById("myNavbar");
+    if (x.className === "navbarDark") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbarDark";
+    }
+  } 
