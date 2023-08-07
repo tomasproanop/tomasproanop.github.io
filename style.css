@@ -31,6 +31,71 @@ body.dark-theme a {
     to{border-right-color: transparent;}
   }
   
+/* navigation bar */
+
+@media screen and (max-width: 600px) {
+  .navbarDark a:not(:first-child) {display: none;}
+  .navbarDark a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbarDark.responsive {position: relative;}
+  .navbarDark.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbarDark.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.navbar a:hover {
+    background-color: rgb(175, 175, 175);
+    color: black;
+  }
+
+.navbarDark a:hover {
+    background-color: rgb(147, 144, 144);
+    color: black;
+  }
+
+.navbarDark a:active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .navbar .icon {
+    display: none;
+  }
+
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: #000000;
@@ -239,6 +304,3 @@ body {
     border-top: 5px solid #0e3750;
     border-radius: 0%;
   }
-
-  
-  
