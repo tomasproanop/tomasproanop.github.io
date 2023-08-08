@@ -3,6 +3,7 @@
 body {
   color: #222;
   background: #fff;
+  font-family: Helvetica, sans-serif;
 }
 a {
   color: #0033cc;
@@ -33,9 +34,35 @@ body.dark-theme a {
   
 /* navigation bar */
 
+.navbar {
+  overflow: hidden;
+  position: relative;
+  }
+
+/* .navbar a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  } */
+
+.navbarDark {
+  overflow: hidden;
+  position: relative;
+}
+
+.navbarDark a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 @media screen and (max-width: 600px) {
   .navbarDark a:not(:first-child) {display: none;}
-  .navbarDark a.icon {
+  .navbarDark a:icon {
     float: right;
     display: block;
   }
@@ -90,10 +117,6 @@ body.dark-theme a {
 .navbarDark a:active {
     background-color: #04AA6D;
     color: white;
-  }
-
-  .navbar .icon {
-    display: none;
   }
 
 /* display background color black on navbar scroll */
